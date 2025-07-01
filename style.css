@@ -35,11 +35,43 @@ button {
 
 .trip-sections {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap:50px;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
+.trip-sections section {
+  background-color: white;
+  padding: 30px 30px;
+  box-shadow: 20px 10px 15px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  flex: 1 1 250px;
+  max-width: flex;
+  min-height: 200px;
+  box-sizing: border-box;
+  color: #553100;
+  align-items: center;
+  text-align: center;
+}
+
+.about-us-section {
+  background-color: white;
+  padding: 30px 30px;
+  box-shadow: 20px 10px 15px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  flex: 1 1 250px;
+  max-width: flex;
+  min-height: 200p;
+  box-sizing: border-box;
+  color: #553100;
+  align-items: center;
+  text-align: center;
+
+}
+
+/*
 section {
   background-color: white;
   padding: 30px 40px;
@@ -49,6 +81,7 @@ section {
   flex: 1 1 250px;
   box-sizing: border-box;
 }
+  */
 
 section h2 {
   margin-bottom: 15px;
@@ -64,6 +97,5 @@ body {
   color: #553100;
   /*padding: 20px;*/
 }
-
 
 
