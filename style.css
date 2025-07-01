@@ -1,7 +1,69 @@
 /*COLORS:*/
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-body{
-  Main background - #D4A76A;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  background-color: #FFDBAA;
+  padding: 40px 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px;
+  margin-bottom: 40px;
+}
+
+section button {
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px 30px;
+  background-color: #805215
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  padding: 10px 40px;
+  background-color: #805215
+}
+
+.trip-sections {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section {
+  background-color: white;
+  padding: 30px 40px;
+  margin: 0px 30px auto;
+  max-width: 600px;
+  border-radius: 6px;
+  flex: 1 1 250px;
+  box-sizing: border-box;
+}
+
+section h2 {
+  margin-bottom: 15px;
+}
+section p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+body {
+  background-color: #D4A76A;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #553100;
+  /*padding: 20px;*/
+}
+
+
+
